@@ -2,7 +2,7 @@
 phases:
   install:
     runtime-versions:
-      dotnet: 8.0
+      dotnet: 7.0
   pre_build:
     commands:
       - dotnet restore AWSCodePipelineDemo.csproj
